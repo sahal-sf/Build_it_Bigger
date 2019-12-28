@@ -3,10 +3,10 @@ package net.sahal.javalib;
 public class Library {
 
     private static String[] jokes = {
-            "Time is money. Therefore, ATMs are time machines.",
-            "What do you call it when computer science majors make fun of each other?\nCyber boolean.",
-            "My iPod is in Titanic mode right now. It is syncing.",
-            "I bought a universal remote control today. I’m kind of afraid of myself now…"};
+            "Grandpa’s last words will stay with me forever: Quit rattlin, the ladder ya little hooligan!",
+            "I saw an ad recently: LASER HAIR REMOVAL. But come on, if you had laser hair, would you really want to remove them? No, you’d be starting world domination!",
+            "I dreamed I was forced to eat a giant marshmallow. When I woke up, my pillow was gone.",
+            "One of the most wonderful things in life is to wake up and enjoy a cuddle with somebody; unless you are in prison."};
     private static int index = 0;
 
     public static String getJoke(){
