@@ -1,0 +1,46 @@
+Dec 28, 2019 3:22:19 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\mkb_2\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2019-12-28 03:22:19.270:INFO::main: Logging initialized @470ms to org.eclipse.jetty.util.log.StdErrLog
+2019-12-28 03:22:19.311:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Dec 28, 2019 12:22:19 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend) is not equal to your 
+web application root (C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2019-12-28 03:22:19.605:INFO:oejs.Server:main: jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_202-release-1483-b03
+2019-12-28 03:22:20.263:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@533bda92{/,file:///C:/Users/mkb_2/Desktop/ud867-master/ud867-master/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend}
+2019-12-28 03:22:20.264:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-12-28 03:22:20.264:INFO:oejs.session:main: node0 Scavenging disabled
+2019-12-28 03:22:20.279:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@4e1d422d{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-12-28 03:22:20.280:INFO:oejs.Server:main: Started @1480ms
+Dec 28, 2019 12:22:20 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Dec 28, 2019 12:22:20 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Dec 28, 2019 3:22:20 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Dec 28, 2019 3:22:26 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/static/proxy.html
+Dec 28, 2019 3:22:32 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/static/proxy.html
+Dec 28, 2019 3:22:35 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/static/proxy.html
+Dec 28, 2019 3:34:51 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/static/proxy.html
+Dec 28, 2019 3:35:08 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/static/proxy.html
+Dec 28, 2019 3:35:51 AM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/api/explorer
+Dec 28, 2019 3:37:28 AM com.google.appengine.api.datastore.dev.LocalDatastoreService init
+INFO: Local Datastore initialized: 
+	Type: High Replication
+	Storage: C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-generated\local_db.bin
+Dec 28, 2019 3:37:28 AM com.google.appengine.api.datastore.dev.LocalDatastoreService load
+INFO: The backing store, C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-generated\local_db.bin, does not exist. It will be created.
+2019-12-28 03:45:13.104:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@4e1d422d{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-12-28 03:45:14.194:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@533bda92{/,file:///C:/Users/mkb_2/Desktop/ud867-master/ud867-master/FinalProject/backend/build/exploded-backend/,UNAVAILABLE}{C:\Users\mkb_2\Desktop\ud867-master\ud867-master\FinalProject\backend\build\exploded-backend}
+Dec 28, 2019 3:45:14 AM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
+Dec 28, 2019 3:45:14 AM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
