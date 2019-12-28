@@ -12,14 +12,12 @@ public class EndPointAsyncTaskTest {
 
     @Test
     public void testDoInBackground() {
-        String response = null;
-
         try {
-            com.udacity.gradle.builditbigger.free.MainActivityFragment fragment = new com.udacity.gradle.builditbigger.free.MainActivityFragment();
+            MainActivityFragment fragment = new MainActivityFragment();
             fragment.testFlag = true;
-            new EndpointAsyncTask().execute((Runnable) fragment);
+            new EndpointAsyncTask().execute(fragment);
             Thread.sleep(5000);
-            assertTrue("Error: get Joke = " + fragment.loadedJoke, fragment.loadedJoke != null);
+            assertTrue("Error: get Joke = " + fragment.Joke, fragment.Joke != null);
         } catch (Exception e) {
             e.printStackTrace();
         }

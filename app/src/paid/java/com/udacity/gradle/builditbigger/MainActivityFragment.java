@@ -14,6 +14,7 @@ import com.udacity.gradle.builditbigger.androidlib.MainActivityLib;
 
 public class MainActivityFragment extends Fragment {
 
+    public boolean testFlag = false;
     ProgressBar progressBar = null;
     public String Joke = null;
 
@@ -40,9 +41,11 @@ public class MainActivityFragment extends Fragment {
     }
 
     public void displayJokeActivity() {
-        Intent intent = new Intent(getActivity(), MainActivityLib.class);
-        intent.putExtra("JOKE", Joke);
-        getActivity().startActivity(intent);
-        progressBar.setVisibility(View.GONE);
+        if (!testFlag) {
+            Intent intent = new Intent(getActivity(), MainActivityLib.class);
+            intent.putExtra("JOKE", Joke);
+            getActivity().startActivity(intent);
+            progressBar.setVisibility(View.GONE);
+        }
     }
 }
